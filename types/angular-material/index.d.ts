@@ -44,6 +44,7 @@ declare module 'angular' {
 
         interface IPresetDialog<T> {
             title(title: string): T;
+            content(content: string): T;
             textContent(textContent: string): T;
             htmlContent(htmlContent: string): T;
             ok(ok: string): T;
